@@ -1,5 +1,5 @@
-import re
-import pandas as pd
+import re 
+import pandas as pd 
 
 def parse_auth_log(filepath: str) -> pd.DataFrame:
     """Parse Linux auth.log for SSH activity."""
