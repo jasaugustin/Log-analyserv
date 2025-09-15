@@ -1,4 +1,4 @@
-# 🔍 Log Analyser (Cybersecurity Project)
+# 🔍 Log Analyser 
 
 A Python project to analyse **web server (Apache)** and **Linux auth logs** for suspicious activity.
 
@@ -18,3 +18,8 @@ python analyser.py logs/sample_apache.log
 
 # Analyse Auth log
 python analyser.py logs/sample_auth.log
+
+#Generates A Random Sample Log
+python generator.py
+#Creates Logs/sample.log you can analyse
+python analyser.py logs/sample.log
